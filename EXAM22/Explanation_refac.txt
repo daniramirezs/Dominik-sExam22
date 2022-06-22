@@ -1,0 +1,4 @@
+1. Called all the headers and named only those that will be used. Like this: "csv_data = FundingRaised.Column(options, csv_data, 'company_name', 1), etc.". 
+2. Then created the column_name function to call column number and column name with better labels and to delete the repeting loop. 
+3. All the loops repeated (for row in csv_data:) were put in the function "def mapping(options, csv_data, titles, place):". This was made to delete unnecessary and long "if" statements.
+4. Reposition each functions depending on their functionality ??
